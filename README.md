@@ -4,7 +4,7 @@
 
 1. Clone the repository:
 
-   <!-- git clone https://github.com/yourusername/my-products-app.git -->
+   git clone https://github.com/JamesOlaleye/Orange_Frontend_Test
 
 2. Navigate to the project folder:
 
