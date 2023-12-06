@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 100,
+      "title": "Product 1",
+      "description": "Passion Energy drink",
+      "category": "Energy drink",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 200,
+      "title": "Product 2",
+      "description": "Passion Vitamin drink",
+      "category": "Energy drink",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "price": 300,
+      "title": "Product 3",
+      "description": "Passion Protein drink",
+      "category": "Energy drink",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "price": 400,
+      "title": "Product 4",
+      "description": "Passion Cola drink",
+      "category": "Energy drink",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "price": 500,
+      "title": "Product 5",
+      "description": "Passion Flavoured drink",
+      "category": "Energy drink",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "price": 600,
+      "title": "Product 6",
+      "description": "Passion Mineral drink",
+      "category": "Energy drink",
+      "image": ""
+    }
+  ]
+}
