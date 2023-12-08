@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import mockdata from '../../db.json';
 
 
-// 
 export default function ProductDetailPage() {
     const { id } = useParams();
     const productId = Number(id);
-    
+
     const [product, setProduct] = useState({
         id: 0,
         name: '',
@@ -34,10 +33,17 @@ export default function ProductDetailPage() {
 
     console.log(product);
     return (
-        <div className="product-detail">
-            <h2 className='head'>{product?.name} Detail</h2>
-            <img src={product?.image} alt={product?.name} className='img'/>
-            <p className='price'>Price: N {product?.price}</p>
-        </div>
+        <>
+            <div className="product-detail">
+                <h2 className='head'>{product?.name} Detail</h2>
+                <img src={product?.image} alt={product?.name} className='img' />
+                <p className='price'>Price: N {product?.price}</p>
+            </div>
+            <div>
+                <Link to="/products">
+                    <button className="back-button">Back to Products</button>
+                </Link>
+            </div>
+        </>
     )
 }
