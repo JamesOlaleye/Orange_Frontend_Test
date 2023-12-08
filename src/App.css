@@ -96,8 +96,8 @@
 }
 
 .back-button {
-  margin-left: 650px;
-  width: 0 auto;
+  /* margin-left: 650px; */
+  /* width: 0 auto; */
   padding: 10px;
   color: #3a0303;
   font-size: 18px;
@@ -140,4 +140,8 @@
     display: flex;
     justify-content: center;
   }
+}
+
+#product-info{
+  text-align: center;
 }

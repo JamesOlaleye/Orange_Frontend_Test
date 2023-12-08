@@ -37,7 +37,7 @@ export default function ProductDetailPage() {
 
     console.log(product);
     return (
-        <>
+        <div id='product-info'>
             <div className="product-detail">
                 <h2 className='head'>{product.name} Detail</h2>
                 <img src={`/${product.image}`} alt={product.name} />
@@ -51,6 +51,6 @@ export default function ProductDetailPage() {
                     <button className="back-button">Back to Products</button>
                 </Link>
             </div>
-        </>
+        </div>
     )
 }
