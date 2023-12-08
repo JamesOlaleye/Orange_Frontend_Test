@@ -2,57 +2,66 @@
   "products": [
     {
       "id": 1,
-      "name": "Product 1",
+      "name": "Food Products",
       "price": 100,
-      "title": "Product 1",
+      "title": "Food Products",
       "description": "Passion Energy drink",
-      "category": "Energy drink",
-      "image": ""
+      "category": "Food",
+      "image": "frontend-test/public/images/food Product.avif"
     },
     {
       "id": 2,
-      "name": "Product 2",
+      "name": "Electronic Products",
       "price": 200,
-      "title": "Product 2",
+      "title": "Electronic Products",
       "description": "Passion Vitamin drink",
-      "category": "Energy drink",
-      "image": ""
+      "category": "Gadgets",
+      "image": "frontend-test/public/images/electronic product.avif"
     },
     {
       "id": 3,
-      "name": "Product 3",
+      "name": "Furnitures",
       "price": 300,
-      "title": "Product 3",
+      "title": "Furnitures",
       "description": "Passion Protein drink",
-      "category": "Energy drink",
-      "image": ""
+      "category": "Interior Design",
+      "image": "frontend-test/public/images/furniture product.avif"
     },
     {
       "id": 4,
-      "name": "Product 4",
+      "name": "Drugs & Medicines",
       "price": 400,
-      "title": "Product 4",
+      "title": "Drugs & Medicines",
       "description": "Passion Cola drink",
-      "category": "Energy drink",
-      "image": ""
+      "category": "Health",
+      "image": "frontend-test/public/images/drugsmedicines product.avif"
     },
     {
       "id": 5,
-      "name": "Product 5",
+      "name": "Tech Products",
       "price": 500,
-      "title": "Product 5",
+      "title": "Tech Products",
       "description": "Passion Flavoured drink",
-      "category": "Energy drink",
-      "image": ""
+      "category": "Technology",
+      "image": "frontend-test/public/images/tech product.avif"
     },
     {
       "id": 6,
-      "name": "Product 6",
+      "name": "Kitchen Utensils",
       "price": 600,
-      "title": "Product 6",
+      "title": "Kitchen Utensils",
       "description": "Passion Mineral drink",
-      "category": "Energy drink",
-      "image": ""
+      "category": "Kitchen tools",
+      "image": "frontend-test/public/images/kitchenUtensils product.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Real Estate Products",
+      "price": 600,
+      "title": "Real Estate Products",
+      "description": "Passion Mineral drink",
+      "category": "Housing",
+      "image": "frontend-test/public/images/realEstate product.avif"
     }
   ]
 }

@@ -19,3 +19,17 @@
    yarn dev
 
 5. Open your browser and go to http://localhost:5173/products
+
+
+## Project Structure
+
+- src/
+  - components/ : Contains reusable React components.
+  - pages/
+    - Home.tsx : Page component for the home view.
+    - ProductDetailPage.tsx : Page component for displaying product details.
+  - App.js : Main application component with React Router setup.
+  - index.js : Entry point for the React application.
+  - App.css : Styles for the application.
+  - db.json : Mock data file.
+
