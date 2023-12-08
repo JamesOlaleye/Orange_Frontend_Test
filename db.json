@@ -7,7 +7,7 @@
       "title": "Food Products",
       "description": "Passion Energy drink",
       "category": "Food",
-      "image": "frontend-test/public/images/food Product.avif"
+      "image": "images/food Product.avif"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "title": "Electronic Products",
       "description": "Passion Vitamin drink",
       "category": "Gadgets",
-      "image": "frontend-test/public/images/electronic product.avif"
+      "image": "images/electronic product.avif"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "title": "Furnitures",
       "description": "Passion Protein drink",
       "category": "Interior Design",
-      "image": "frontend-test/public/images/furniture product.avif"
+      "image": "images/furniture product.avif"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "title": "Drugs & Medicines",
       "description": "Passion Cola drink",
       "category": "Health",
-      "image": "frontend-test/public/images/drugsmedicines product.avif"
+      "image": "images/drugsmedicines product.avif"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "title": "Tech Products",
       "description": "Passion Flavoured drink",
       "category": "Technology",
-      "image": "frontend-test/public/images/tech product.avif"
+      "image": "images/tech product.avif"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "title": "Kitchen Utensils",
       "description": "Passion Mineral drink",
       "category": "Kitchen tools",
-      "image": "frontend-test/public/images/kitchenUtensils product.jpeg"
+      "image": "images/kitchenUtensils product.jpeg"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "title": "Real Estate Products",
       "description": "Passion Mineral drink",
       "category": "Housing",
-      "image": "frontend-test/public/images/realEstate product.avif"
+      "image": "images/realEstate product.avif"
     }
   ]
 }

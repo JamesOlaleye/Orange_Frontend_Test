@@ -8,7 +8,13 @@ export default function Products() {
     console.log(products);
     const productsList = products.map(product => {
         return (
-            <li key={product.id} className='item-list'><Link to={`${product.id}`}>{product.title}</Link></li>
+            <li key={product.id} className='item'>
+                <Link to={`${product.id}`}>
+                    <img src={product.image} alt="" />
+                    <p>{product.title}</p>
+                    <p>Price: $ {product.price}</p>
+                </Link>
+            </li>
         )
     })
 
