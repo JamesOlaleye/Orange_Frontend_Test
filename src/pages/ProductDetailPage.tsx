@@ -12,6 +12,8 @@ export default function ProductDetailPage() {
         name: '',
         image: '',
         price: 0,
+        category: '',
+        description: '',
     });
 
     const getDefaultProduct = () => ({
@@ -19,6 +21,8 @@ export default function ProductDetailPage() {
         name: '',
         image: '',
         price: 0,
+        category: '',
+        description: '',
     });
 
     const fetchProduct = () => {
@@ -35,10 +39,13 @@ export default function ProductDetailPage() {
     return (
         <>
             <div className="product-detail">
-                <h2 className='head'>{product?.name} Detail</h2>
-                <img src={product?.image} alt={product?.name} className='img' />
-                <p className='price'>Price: N {product?.price}</p>
+                <h2 className='head'>{product.name} Detail</h2>
+                <img src={`/${product.image}`} alt={product.name} />
+                <p className='price'>Price: N {product.price}</p>
+                <p>Description: {product.description}</p>
+                <p>Category: {product.category}</p>
             </div>
+
             <div>
                 <Link to="/products">
                     <button className="back-button">Back to Products</button>
