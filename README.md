@@ -28,8 +28,8 @@
   - pages/
     - ProductsListing.tsx : Page component for the Product Listing view.
     - ProductDetailPage.tsx : Page component for displaying product details.
-  - App.js : Main application component with React Router setup.
-  - index.js : Entry point for the React application.
+  - App.tsx : Main application component with React Router setup.
+  - main.tsx : Entry point for the React application.
   - App.css : Styles for the application.
   - db.json : Mock data file.
 
